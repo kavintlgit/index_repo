@@ -1,0 +1,52 @@
+*{
+
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+body{
+
+    
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 5px solid black ;
+    background: url(/Assignment02/image/travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+
+    text-align: center;
+    padding: 10px;
+}
+
+.section_01{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+.main_div{
+
+    background: #443c3c70;
+    color: rgb(250, 250, 250);
+    padding: 20px;
+    width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+   box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
